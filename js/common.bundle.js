@@ -5586,7 +5586,7 @@
         e.exports.requestSessionWithRetry = (t, n, i, a) => {
             r({
                 host: "",
-                uri: "/session/"
+                uri: "https://scratch.mit.edu/session/"
             }, ( (r, o, s) => {
                 if (r || s && 404 === s.statusCode)
                     return n(r);
